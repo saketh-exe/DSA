@@ -31,7 +31,7 @@ public class Stack {
     public void pop() {
         if (!isEmpty()) {
             System.out.println("Popped element: " + stack[top]);
-            stack[top--] = 0; // or 0 or some default value
+            stack[top--] = 0; 
         } else {
             System.out.println("Stack Underflow!");
         }
